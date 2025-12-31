@@ -27,9 +27,7 @@ export default function Gallery() {
               {/* Text */}
               <div style={{ width: "50%", textAlign: reversed ? "right" : "left" }}>
                 <h3 style={{ margin: 0, fontSize: 18 }}>{item.title}</h3>
-                <p className="muted" style={{ marginTop: 8, lineHeight: 1.6 }}>
-                  {item.text}
-                </p>
+                
               </div>
             </div>
           );
