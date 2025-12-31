@@ -24,10 +24,16 @@ export default function Gallery() {
                 <img src={item.src} alt={item.title} />
               </div>
 
-              {/* Text */}
-              <div style={{ width: "50%", textAlign: reversed ? "right" : "left" }}>
-                <h3 style={{ margin: 0, fontSize: 18 }}>{item.title}</h3>
-                
+              {/* Title only */}
+              <div
+                style={{
+                  width: "50%",
+                  textAlign: reversed ? "right" : "left",
+                }}
+              >
+                <h3 style={{ margin: 0, fontSize: 18 }}>
+                  {item.title}
+                </h3>
               </div>
             </div>
           );

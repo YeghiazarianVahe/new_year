@@ -5,6 +5,11 @@ export type TimelineEvent = {
   photo?: string;
 };
 
+export type GalleryItem = {
+  src: string;
+  title: string;
+};
+
 export const CONFIG = {
   herName: "Սյուզ",
   yourName: "Վահե",
@@ -55,7 +60,7 @@ export const CONFIG = {
     { src: "/photos/40.jpeg", title: "Մենակ դու" },
     { src: "/photos/41.jpeg", title: "Մենակ քո" },
     { src: "/photos/42.JPEG", title: "Ա Մ Ե Ն Ա Ս" },
-  ],
+  ] as GalleryItem[],
 
   letter: {
     title: "Ու ոնց խոստացել էի, Նամակ իմ հրաշք աղջկան",
